@@ -45,6 +45,7 @@ function axial_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html__( 'Primary', 'axial' ),
+		'fullscreen' => __( 'Full Screen Home', 'axial')
 	) );
 
 	/*

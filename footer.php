@@ -11,18 +11,17 @@
 
 ?>
 
-	</div><!-- #content -->
+	<?php wp_footer(); ?>
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'axial' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'axial' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'axial' ), 'axial', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	<footer>
+		
+	</footer>
 
-<?php wp_footer(); ?>
+</div><!-- id container -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="<?php bloginfo('template_directory'); ?>/assets/js/main.js"></script>
 
 </body>
 </html>
